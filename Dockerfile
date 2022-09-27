@@ -4,6 +4,7 @@ RUN mkdir -p /tmp/typesense-data
 
 ENV TYPESENSE_DATA_DIR=/tmp/typesense-data
 ENV TYPESENSE_ENABLE_CORS=true
+ENV PORT=8107
 # ENV TYPESENSE_API_KEY=123
 
 ARG TYPESENSE_API_KEY
